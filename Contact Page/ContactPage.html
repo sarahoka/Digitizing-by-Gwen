@@ -1,0 +1,138 @@
+<!DOCTYPE HTML>
+<HTML>
+    <head>
+        <title>
+            Contact
+        </title>
+        <style>
+        @import url('https://fonts.googleapis.com/css?family=Bad+Script');
+            #subscript {
+            color: #1b205f
+        }
+        
+            #tagline {
+                font-family: bad script, cursive;
+            }
+            
+            .century { 
+                font-family: "Century Gothic", sans-serif; 
+            }
+            
+            .header {
+                font-family: sans-serif;
+                font-size: 30px;
+                color: #efefef;
+                background: #8d0909;
+            }
+
+                        /* Style inputs with type="text", select elements and textareas */
+            input[type=text], select, textarea {
+              width: 100%; /* Full width */
+              padding: 12px; /* Some padding */  
+              border: 1px solid #ccc; /* Gray border */
+              border-radius: 4px; /* Rounded borders */
+              box-sizing: border-box; /* Make sure that padding and width stays in place */
+              margin-top: 6px; /* Add a top margin */
+              margin-bottom: 16px; /* Bottom margin */
+              resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+            }
+
+            /* Style the submit button with a specific background color etc */
+            input[type=submit] {
+              background-color: #81d0db;
+              color: white;
+              padding: 12px 20px;
+              border: none;
+              border-radius: 4px;
+              cursor: pointer;
+            }
+
+            /* When moving the mouse over the submit button, add a darker green color */
+            input[type=submit]:hover {
+              background-color: rgb(113, 161, 168);
+            }
+
+            /* Add a background color and some padding around the form */
+            .container {
+              border-radius: 5px;
+              background-color: #f2f2f2;
+              padding: 20px;
+            }
+        </style>
+        
+        <script>
+            
+        </script>
+    </head>
+    <body>
+        <div>
+            <div style="background-color: #efefef">
+                <img src="logo.PNG" alt="celtic knot logo" width="175" height="175">
+                <img src="dbg-title.png" alt="Digitizing by Gwen Logo" width="440" height="175">
+                <p id="subscript" style="font-family: sans-serif">Digitizing by Gwen</p>
+                <img src="NavBar.png" alt="navigation bar">
+                <h2 id="tagline" style="text-align: center">Preserving Memories</h2> <!--need to add font code-->
+
+                <h4 class="header">Contact</h4> <!--insert some kind of border-->
+                <!--change fonts to century gothic-->
+                <p class="century">Gretchen "Gwen" Whitlatch</p>
+                <img src="location%20icon.png" alt="location icon" width="25" height="30">
+                <p1 class="century">Snohomish, Washington</p1>
+                <p></p>
+                <img src="mail%20icon.png" alt="mail icon" width="33" height="21">
+                <p1 class="century">gretchen@digitizingbygwen.com</p1> <!--link?-->
+
+                <p class="century"><strong>You can also contact us by using the form below:</strong></p>
+
+                <!-- contact form -->
+                <div class="container">
+                    <form action="action_page.php">
+                        <label for="name" class="century" style="color: #1b205f"><b>Name:*</b></label>
+                        <input type="text" id="name" name="nameField" placeholder="Your Name">
+
+                        <label for="email" class="century" style="color: #1b205f"><b>Email:*</b></label>
+                        <input type="text" id="email" name="emailField" placeholder="example@gmail.com">
+
+                        <label for="note" class="century" style="color: #1b205f"><b>Note:*</b></label>
+                        <textarea id="note" name="noteField" placeholder="Enter Note Here" style="height:200px; font-family: sans-serif"></textarea>
+
+                        <input type="submit" value="Submit">
+
+                    </form>
+                </div>
+
+                <h4 class="header">Captcha**</h4> <!--insert some kind of border-->
+                <p1 style="color: #8d0909">**</p1>
+                <p1 class="century">spam protection code</p1>
+                <p></p>
+
+                <!--captcha-->
+                <img src="Captcha.PNG" alt="captcha placeholder" width="20%" height="20%">
+                <p></p>
+
+                <p1 class="century" style="color: #8d0909"><strong>Personalized Service</strong></p1>
+                <p1 class="century">&mdash;all projects include private consultation to ensure that we are on the same page before starting.</p1>
+                <p></p>
+                <p1 class="century"><strong>Please note that all fields marked with</strong></p1>
+                <p1 class="century" style="color: #8d0909"><strong>*</strong></p1>
+                <p1 class="century"><strong>are</strong></p1>
+                <p1 class="century" style="color: #8d0909"><strong>required</strong></p1>
+            </div>
+            <div style="background-color: dimgrey">
+                <!--change to broader site map-->
+                <h4>Services</h4>
+                <!--change all to links-->
+                    <p>Photos</p>
+                    <p>Negatives</p>
+                    <p>Albums</p>
+                    <p>Video</p>
+                    <p>Reel to Reel</p>
+                    <p>Cassette</p>
+                <h4>About Us</h4>
+                    <p>About</p>
+                    <p>Contact</p>
+                <p style="text-align: center"><strong>Copyright &copy;2019 Digitizing by Gwen</strong></p>
+            </div>
+        </div>
+    </body>
+</HTML>
