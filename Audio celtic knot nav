@@ -1,0 +1,56 @@
+<!doctype html>
+<html>
+<head>
+    <title>Test knot</title>
+    <style>
+        body {
+            background-color: #4ab745;
+        }
+        
+        .greyBar {
+            height: 500px;
+            width: 100%;
+            background: #767676;
+        }
+        #theKnot {
+            height: 350px;           
+                    
+        }
+        #menu { 
+            display:flex;
+            justify-content: center;
+            border-radius: 100%;
+            background-size: cover;
+            background-repeat: no-repeat;
+            position: absolute;
+            height: 160px;
+            width: 160px; 
+            
+        }
+        .navpic {
+            background-image: url(audiopic.jpg);
+            top: 118px; 
+            left: 184px;
+        }
+        
+        #text {
+            align-items: center;
+        }
+        
+    </style>
+</head>
+<body>
+    <nav>
+    <div class="greyBar">
+    <img src="small-celtic-knotwork-3.png" id="theKnot"/>    
+    <ul>
+        <li id ="menu" class="navpic">
+            <p>Video</p>
+        </li>
+    </ul>
+    </div>
+    </nav>
+    
+    
+</body>
+</html>
