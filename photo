@@ -53,7 +53,7 @@
 
                   <div class="column2" style="background-color:#032857; color:#efefef">
                         <h3>Photos</h3>
-                        <p> There are many different types of photos that we can digitize. Currently these include negatives, slides, and images from photo albums and scrapbooks. Below are some examples of previous works, as well as more information about each of these options. We also offer color and brightness correction.</p>
+                        <p> There are many different types of photos that we can digitize. Currently these include negatives, slides, and images from photo albums and scrapbooks. Below are some examples of our work, as well as links for each of these options. We also offer color and brightness correction.</p>
                   </div>
                 
             </div>
@@ -65,9 +65,20 @@
    
             <img src="_image/beforeafter.png" alt="Cover Photo" class="coverimg">
         
-        <article>
-            <h2></h2>
-        </article>
+            <div class="row2">
+                
+                  <div class="column2">
+                        <h3>Prices</h3>
+                      <p style="text-align: left">Loose photos, up to size 5”x7”................................................40¢ ea</p><br>
+
+                        <p style="text-align: left">Loose photos or portraits, >5”x7” and &#60;12”x17”....................50¢ ea</p><br>
+
+                        <p style="text-align: left">Over-sized photos or portraits..................................................50¢ per scan +</p><br> <p style="text-align: right">$20/hr to stitch together </p>
+                  </div>
+                
+
+                
+            </div>
 
         <footer> <!--<Listed items will be link in the future>-->
             
