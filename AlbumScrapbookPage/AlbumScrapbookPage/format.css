@@ -1,0 +1,169 @@
+body {/* Website Background Color*/
+    background-color: #efefef;
+}
+
+header {
+    background-image: url(../_image/logo.png);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: 400px;/* Logo size*/
+    text-align: center;
+    padding-top: 120px;/* spacing for logo*/
+}
+
+h3{
+    color: #fe030f;
+}
+
+nav{                    
+    margin-top: 30px;
+    width: 930px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative; 
+    left: 10px; /* moves nav bar left or right*/
+}
+
+.navcolumn {
+  float: left;
+  width: 150px;
+  padding: 0px; /* adjust spacing between nav pics*/
+}
+
+#mainnav a {
+    text-decoration: none; 
+    color: black; 
+}
+
+#mainnav img {
+    width: 100%;
+}
+
+.images {
+    float: left;
+    padding-bottom: 20px;
+}
+
+.images1 {
+    float: left;
+    padding-bottom: 60px;
+    padding-left: 60px;
+    padding-right: 100px;
+    transform: rotate(45deg);
+}
+
+.red {
+    color: #8d0909;
+}
+
+.titles {
+    font-size: 25px;
+}
+
+.row2 {
+    display: flex;
+    text-align: left;
+    width: 930px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.row3 {
+    clear: left;
+    display: flex;
+    text-align: left;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.row4 {
+    display: flex;
+    text-align: left;
+    width: 300px;
+    margin-left: 520px;
+    margin-right: auto;
+}
+
+.row5 {
+    display: flex;
+    text-align: left;
+    width: 300px;
+    margin-left: 570px;
+    margin-right: auto;
+}
+
+.row6 {
+    display: flex;
+    text-align: left;
+    width: 300px;
+    margin-left: 510px;
+    margin-right: auto;
+}
+
+.column2 {
+    flex: 50%;
+    padding: 10px;
+}
+
+.dbg {/* Digitizing by Gwen text*/
+    font-size: 14px;
+    font-family: sans-serif;
+    font-weight: 100;
+}
+
+.badscript{
+    font-family: 'Bad Script', cursive;
+    font-size: 62px;
+    font-weight: 100;
+    line-height: 1em;
+}
+
+footer{
+    background-color: #b0b0b0;
+    width: 930px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* footer's columns */
+.column {
+    float: left;
+    text-align: center;
+}
+
+.column li{
+    list-style: none;
+    position: relative;
+    left: -20px;
+}
+
+.column a{
+    list-style: none;
+    text-decoration: none;
+}
+
+.left {
+    width: 33%;
+}
+
+.middle {
+    width: 33%;
+}
+
+.right {
+    width:auto;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.copyright{
+    text-align: center;
+    font-size: 18px;
+    font-weight: 900;
+}
